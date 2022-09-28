@@ -1,5 +1,5 @@
-import puppeteer from 'puppeteer';
 import { NextApiRequest, NextApiResponse } from 'next';
+const puppeteer = require('puppeteer');
 
 enum ExportType {
   Image = 'image',
